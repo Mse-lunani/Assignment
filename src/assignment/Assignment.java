@@ -18,10 +18,13 @@ public class Assignment {
         // TODO code application logic here
        no1 nn= new no1();
         nn.item();
-        //assume this application is called date for question two coz am just too lazy to create a new packge right now
+        //no.2assume this application is called date for question two coz am just too lazy to create a new packge right now
         date Date= new date(5,5,5);
         Date.set(6, 1998, 2);
         Date.displayDate();
+        //no.3 I have done a one dimentiontal because the question cant have a 2d
+        array  Array=new array();
+        Array.Array();
     }
     
 }
