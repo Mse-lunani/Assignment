@@ -27,7 +27,7 @@ public class date {
      year=year1;
  }
  //this is the display section
- public void displayMonth(){
+ public void displayDate(){
       System.out.println(month+"/"+date+"/"+year);
  }
 }
