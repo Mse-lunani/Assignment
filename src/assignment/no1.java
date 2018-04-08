@@ -14,9 +14,9 @@ import java.util.Scanner;
 public class no1 {
     public void item(){
     boolean item= false;
-    double total=400;
+    double total=0;
     Scanner input= new Scanner(System.in);
-    System.out.println("type true if you have a next item and false if you dont");
+    System.out.println("type true if you have an item(s) and false if you dont");
     item= input.nextBoolean();
     while(item==true){
         
