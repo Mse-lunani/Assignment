@@ -11,12 +11,15 @@ package assignment;
  */
 public class array {
     public void Array(){
-        int []count= new int[10];
-        for(int i=0;i<10;i++){
-            count[i]=0;
-            count[i]=+1;
+        int count [][]= new int[2][5];
+        for(int j=0;j<2;j++){
+        for(int i=0;i<5;i++){
+            count[j][i]=0;
+            count[j][i]=+1;
             System.out.print("\t"+count[i]);
             
+        }
+        System.out.println();
         }
         
     }
