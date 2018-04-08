@@ -21,7 +21,7 @@ public class Assignment {
         //assume this application is called date for question two coz am just too lazy to create a new packge right now
         date Date= new date(5,5,5);
         Date.set(6, 1998, 2);
-        Date.displayMonth();
+        Date.displayDate();
     }
     
 }
