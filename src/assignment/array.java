@@ -13,10 +13,10 @@ public class array {
     public void Array(){
         int count [][]= new int[2][5];
         for(int j=0;j<2;j++){
-        for(int i=0;i<5;i++){
+        for(int i=0;i<4;i++){
             count[j][i]=0;
             count[j][i]=+1;
-            System.out.print("\t"+count[i]);
+            System.out.print("\t"+count[j][i]);
             
         }
         System.out.println();
