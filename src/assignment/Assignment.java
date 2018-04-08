@@ -16,8 +16,12 @@ public class Assignment {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        no1 nn= new no1();
+       no1 nn= new no1();
         nn.item();
+        //assume this application is called date for question two coz am just too lazy to create a new packge right now
+        date Date= new date(5,5,5);
+        Date.set(6, 1998, 2);
+        Date.displayMonth();
     }
     
 }
