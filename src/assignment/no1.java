@@ -13,14 +13,36 @@ import java.util.Scanner;
  */
 public class no1 {
     public void item(){
-    boolean item= true;
-    double total=0;
+    boolean item= false;
+    double total=400;
+    Scanner input= new Scanner(System.in);
+    System.out.println("type true if you have a next item and false if you dont");
+    item= input.nextBoolean();
     while(item==true){
-        Scanner input= new Scanner(System.in);
-        System.out.println("Enter price of item");
-        double price = input.nextInt();
-        double earn =0.07*price + 700;
+        
+        System.out.println("Enter itemNumber");
+        double item_no = input.nextInt();
+        if(item_no==1){
+         System.out.println("Enter Number of items");  
+         int no_items=input.nextInt();
+        double earn =0.07*259.34*no_items + 400;
         total+=earn;
+        }
+        else if(item_no==2){
+         System.out.println("Enter Number of items");  
+         int no_items=input.nextInt();
+        double earn =0.07*349.75*no_items + 400;
+        }
+         else if(item_no==3){
+        System.out.println("Enter Number of items");  
+         int no_items=input.nextInt();
+        double earn =0.07*100.95*no_items + 400;
+        }
+         else if(item_no==4){
+        System.out.println("Enter Number of items");  
+         int no_items=input.nextInt();
+        double earn =0.07*300.89*no_items + 400;
+        }
         System.out.println("type true if you have a next item and false if you dont");
         item= input.nextBoolean();
         
