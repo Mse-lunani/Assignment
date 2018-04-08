@@ -25,27 +25,30 @@ public class no1 {
         if(item_no==1){
          System.out.println("Enter Number of items");  
          int no_items=input.nextInt();
-        double earn =0.07*259.34*no_items + 400;
+        double earn =259.34*no_items;
         total+=earn;
         }
         else if(item_no==2){
          System.out.println("Enter Number of items");  
          int no_items=input.nextInt();
         double earn =0.07*349.75*no_items + 400;
+        total+=earn;
         }
          else if(item_no==3){
         System.out.println("Enter Number of items");  
          int no_items=input.nextInt();
-        double earn =0.07*100.95*no_items + 400;
+        double earn =100.95*no_items ;
+        total+=earn;
         }
          else if(item_no==4){
         System.out.println("Enter Number of items");  
          int no_items=input.nextInt();
-        double earn =0.07*300.89*no_items + 400;
+        double earn =300.89*no_items ;
+        total+=earn;
         }
         System.out.println("type true if you have a next item and false if you dont");
         item= input.nextBoolean();
         
     }
-    System.out.println("total earning is: "+total);
+    System.out.println("total earning is: "+total*0.07+400);
 }}
