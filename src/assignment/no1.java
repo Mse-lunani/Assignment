@@ -19,7 +19,7 @@ public class no1 {
     System.out.println("type true if you have an item(s) and false if you dont");
     item= input.nextBoolean();
     while(item==true){
-        
+        //displaying the cost of items 
         System.out.println("Enter itemNumber");
         double item_no = input.nextInt();
         if(item_no==1){
